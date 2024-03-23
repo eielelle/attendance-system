@@ -1,0 +1,84 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap'); */
+
+* {
+  -fx-base1: #9b84ec;
+  -fx-base2: #583694;
+  -fx-color1: #2f3136;
+  -fx-color2: #23272a;
+  -fx-color3: #ec4145;
+  -fx-color4: #ced4da;
+  /* -fx-font-family: "Nunito Sans"; */
+}
+/* 
+AnchorPane,
+HBox {
+  -fx-font-family: "Nunito Sans";
+} */
+
+.textGray1 {
+  -fx-text-fill: -fx-color4;
+}
+
+.textWhite {
+  -fx-text-fill: #fff;
+}
+
+.seperator {
+  -fx-border-radius: 14px;
+}
+
+.heading1 {
+  -fx-font-size: 40px;
+  -fx-font-weight: 700;
+}
+
+.heading2 {
+  -fx-font-size: 28px;
+  -fx-font-weight: 700;
+}
+
+.error {
+  -fx-border-color: -fx-color3;
+}
+
+.date-picker * {
+  -fx-text-fill: #fff;
+}
+
+.date-picker {
+  -fx-background-color: -fx-color2;
+}
+
+.date-picker .text-field {
+  -fx-control-inner-background: -fx-color2;
+  -fx-text-fill: #fff;
+}
+
+.date-picker > .arrow-button {
+  -fx-background-color: -fx-base1;
+}
+
+.date-picker-popup {
+  -fx-background-color: -fx-base1;
+}
+
+.date-picker-popup > .month-year-pane {
+  -fx-background-color: -fx-base1;
+}
+
+.date-picker-popup > .calendar-grid {
+  -fx-background-color: -fx-color2;
+}
+
+.date-picker-popup > * > .date-cell {
+  -fx-background-color: -fx-color1;
+  -fx-border-color: -fx-color1;
+}
+
+.date-picker-popup > * > .today {
+  -fx-background-color: -fx-base2;
+}
+
+.date-picker-popup > * > .date-cell:hover {
+  -fx-background-color: -fx-base2;
+}
